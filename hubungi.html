@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hubungi Kami - Jenis Batik Indonesia</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #0b0e1a;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #0f1322;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .logo span {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      padding: 10px;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #ccc;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+    }
+
+    nav a.active {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      color: #fff;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 100px auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    form {
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 14px;
+      text-align: left;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      margin-top: 40px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      border: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .info {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #ccc;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>BI</span>
+      Jenis Batik Indonesia
+    </div>
+    <nav>
+      <a href="beranda.html">Beranda</a>
+      <a href="motif.html">Motif</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="hubungi.html" class="active">Hubungi</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Hubungi Kami</h1>
+    <form>
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email aktif" required>
+
+      <label for="pesan">Pesan</label>
+      <textarea id="pesan" name="pesan" placeholder="Tuliskan pesan Anda..." required></textarea>
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="info">
+      <p>Atau hubungi kami melalui email: <strong>info@batikindonesia.id</strong></p>
+      <p>Instagram: @batik.indonesia | Facebook: Batik Indonesia Official</p>
+    </div>
+  </main>
+</body>
+</html>
